@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Currency Converter</h1>
+    </div>
+    <div class="container">
+        <div class="inputside">
+            <form>
+                <div class="amount">
+                    <p class="hh">ENTER AMOUNT</p><br>
+                    <input class="foorm1" type="number" value="1000">
+                </div>
+                <div class="flag">
+                    <p class="hh">FROM:</p>
+                    <img class="image" src="https://flagsapi.com/IN/flat/64.png">
+                    <select class="ss from">
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="outputside">
+            <div class="amount">
+                <p class="hh">EQUIVALENT AMOUNT</p><br>
+                <input class="foorm2" type="number" value="1000">
+            </div>
+            <div class="flag">
+                <p class="hh">TO:</p>
+                <img class="image" src="https://flagsapi.com/US/flat/64.png">
+                <select class="ss to">
+                    <option value="USD">USD</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <button class="gett">get exchange rate</button>
+    <script src="./country.js" defer></script>
+    <script src="./script.js" defer></script>
+</body>
+</html>
